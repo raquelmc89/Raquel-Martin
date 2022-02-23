@@ -31,10 +31,16 @@
 
 }
 
-#nav {
+#nav  {
    font-size: 30px;
   font-weight: 200;
   
+}
+
+#nav2 {
+  font-size: 30px;
+ font-weight: 200;
+ 
 }
 
 body {
