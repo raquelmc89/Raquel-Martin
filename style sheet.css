@@ -90,3 +90,19 @@ body {
   text-align: center;
   color:rgb(12, 11, 5) ;
 }
+
+table {
+ 
+  border: 3px solid rgb(202, 186, 93);
+  border-collapse: collapse;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+th, td {
+  padding: 30px;
+}
+
