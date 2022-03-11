@@ -1,0 +1,205 @@
+/* header */
+
+.container-fluid {
+    text-align: center;
+    align-content: center;
+    margin-top: 9em;
+  
+  }
+  
+  .ml-3 {
+    border-radius: 70%;
+    max-width: 200px;
+    height: auto;
+    margin-right: 5em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    overflow: hidden;
+    transform: translateY(0px);
+    
+  }
+  
+  #header {
+    text-align: center;
+    margin-top:150px;
+    
+  }
+  
+  .bg-image {
+    background-image: url('map.jpg'); 
+    height:50vh;
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: cover;
+  
+    /* nav layout */
+  
+  }
+  #nav2 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width:535px;
+    background-color: rgba(0, 128, 75, 0.486);
+    position:relative;
+    font-size: 30px;
+    
+  }
+  
+  #nav{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width:535px;
+    background-color: rgba(0, 128, 75, 0.486);
+    position:relative;
+    font-size: 30px;
+    animation-name:lu;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes lu {
+    0% {left: -100%;}
+    100% {left: 0%;}
+  
+  }
+  
+  a {
+    color: rgb(202, 186, 93)
+  }
+  
+  a:visited {
+   color: rgb(202, 186, 93);
+  }
+  a:hover {
+    color:rgba(255, 198, 13, 0.849);
+  
+  }
+  
+  body {
+    background-color:rgb(165, 212, 194);
+    opacity: 100%;
+  }
+  /* footer  */
+  
+  #footer {
+    margin-top: 150px;
+    text-align: center;
+    color:rgb(12, 11, 5) ;
+  
+  }
+  
+  /* about */
+  
+  #about {
+    background-color: rgba(0, 128, 75, 0.486);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 30px;
+    padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   font-size:medium;
+   position:relative;
+   animation: about 4s;
+  
+  }
+  
+  @keyframes about {
+  
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+  }
+  
+  
+  
+  /* hello animation*/
+  
+   .waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  
+  }
+  
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    color: rgba(0, 128, 75, 0.486);
+    padding-top: 20px;
+    font-size:  40px;;
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  
+  /* table education layout*/
+  
+  table {
+   
+    border: 3px solid rgb(202, 186, 93);
+    border-collapse: collapse;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  table-layout: fixed;
+  animation: table 4s;
+  }
+  
+  @keyframes table {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+  
+  }
+  
+  th, td {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  th i {
+    padding-left: 40px ;
+    padding-right: 20px
+  }
+  
+  ul{
+    list-style: none ;
+  }
+  
+  /* portfolio */
+  
+  #portfolio {
+    background-color: rgba(0, 128, 75, 0.486);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    height: 900px;
+    width:1000px;
+    position:relative;
+    animation-name:portfolio;
+    animation-duration: 4s;
+   
+    
+  }
+  
+  @keyframes portfolio {
+    from {height: 0px;}
+    to {height: 900px;}
+  
+  }
