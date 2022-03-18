@@ -98,7 +98,7 @@
   
   #about {
     background-color: rgba(0, 128, 75, 0.486);
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right:auto;
     padding-top: 30px;
@@ -122,6 +122,7 @@
   /* hello animation*/
   
    .waviy {
+     margin-top: 30px;
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
   
@@ -150,10 +151,8 @@
   
   /* table education layout*/
   
-  table {
-   
-    border: 3px solid rgb(202, 186, 93);
-    border-collapse: collapse;
+  .table-responsive {
+    
     padding:10px;
     margin-left: auto;
     margin-right: auto;
@@ -208,14 +207,14 @@
 
  .col-4 {
   background: rgba(0, 128, 75, 0.486);
-  height: 350px;
-  width: 100px;
-  padding: 20px;
-  border: solid 10px rgb(202, 186, 93);
+  height: 450px;
+  border:  10px rgb(202, 186, 93);
   border-radius: 10px;
   margin: 60px;
-  box-sizing: border-box;
+  border-style: outset;
   text-align: center;
+  padding: 30px;
+  text-align:center;
   }
 
   input  {
@@ -234,6 +233,7 @@ button {
   background-color: rgb(165, 212, 194);
   border: 2px solid rgb(202, 186, 93);
   border-radius: 30px;
+  border-style: double ;
   box-shadow:rgb(202, 186, 93)4px 4px 0 0 ;
   color: black ;
   cursor: pointer;
@@ -261,8 +261,52 @@ button:active {
   }
 }
 
-p {
-  font-size: large;
- 
+/*thank you*/
+
+.vintage__container{
+  text-align: center;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
 }
+
+.vintage__top {
+  background: linear-gradient(rgb(202, 186, 93),rgb(240, 220, 200)) ;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  z-index: 1;
+  -webkit-text-fill-color: transparent;
+  text-emphasis-color: transparent;
+}
+
+.vintage__bot {
+  margin-top: 100px;
+  text-shadow: 
+    2px 1px rgb(85, 10, 0),
+    4px 2px rgb(90, 15, 5),
+    6px 4px rgb(100, 20, 15),
+    8px 5px rgb(105, 25, 20),
+    10px 6px rgb(110, 30, 25),
+    12px 7px rgb(115, 30, 30),
+    14px 8px rgb(120, 30, 35),
+    16px 9px black,
+    18px 10px black,
+    20px 11px black,
+    22px 12px black,
+    24px 13px black,
+    28px 14px rgba(0, 0, 0, 0.9),
+    30px 15px rgba(0, 0, 0, 0.7),
+    32px 16px rgba(0, 0, 0, 0.5),
+    34px 17px rgba(0, 0, 0, 0.3),
+    36px 18px rgba(0, 0, 0, 0.1),
+    40px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 
