@@ -205,17 +205,6 @@
 
   /* contact form*/
 
-  .col-4{
-    animation: about 4s;
-  
-  }
-  
-  @keyframes about {
-  
-    0% { opacity: 0; }
-    100% { opacity: 1;}
-  }
-
  .col-4 {
   background: rgba(0, 128, 75, 0.486);
   height: 450px;
@@ -226,6 +215,13 @@
   text-align: center;
   padding: 30px;
   text-align:center;
+  animation:contact 4s;
+  }
+
+  @keyframes contact{
+  
+    0% { opacity: 0; }
+    100% { opacity: 1;}
   }
 
   input  {
