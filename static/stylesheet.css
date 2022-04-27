@@ -31,54 +31,42 @@
     background-repeat:no-repeat; 
     background-position: center;
     background-size: cover;
+  }
+ 
+  /* Navbar */
+
+.Navbar {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  background-color: rgba(0, 128, 75, 0.486);
+  font-size:  30px;
+  margin:auto;
   
-    /* nav layout */
+} 
+
+  .Nav-link{
+    display: flex;
+    padding-right: 20px;
+    color: rgba(3, 56, 34, 0.486);
   
   }
-  #nav2 {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    min-width:535px;
-    background-color: rgba(0, 128, 75, 0.486);
-    position:relative;
-    font-size: 30px;
-    
+@media only screen and (max-width: 768px) {
+  .Navbar, 
+  .Nav-link {
+    flex-direction: column;
   }
-  
-  #nav{
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    min-width:535px;
-    background-color: rgba(0, 128, 75, 0.486);
-    position:relative;
-    font-size: 30px;
-    animation-name:lu;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
+  .Navbar {
+    display:none;
   }
+ 
+   } 
   
-  @keyframes lu {
-    0% {left: -100%;}
-    100% {left: 0%;}
   
-  }
-  
-  a {
-    color: rgb(202, 186, 93)
-  }
-  
-  a:visited {
-   color: rgb(202, 186, 93);
-  }
   a:hover {
-    color:rgba(255, 198, 13, 0.849);
-  
+   color: rgb(202, 186, 93);
+   transition: 0.3s;
+   text-decoration: none;
   }
   
   body {
@@ -153,12 +141,11 @@
   
   .table-responsive {
     
-    padding:10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-  table-layout: fixed;
-  animation: table 4s;
+   padding:10px;
+   animation: table 4s;
+   margin: auto;
+   table-layout: auto;
+   
   }
   
   @keyframes table {
@@ -216,6 +203,7 @@
   padding: 30px;
   text-align:center;
   animation:contact 4s;
+
   }
 
   @keyframes contact{
@@ -224,23 +212,27 @@
     100% { opacity: 1;}
   }
 
-  input  {
+  textarea{
+  display: block;
+  max-width: 95%;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
 	outline:0;
-	height:25px;
+	height:40px;
 	width: 275px;
-	padding-right:15px;
-	padding-left:15px;
   background-color:rgb(165, 212, 194);
-   border: 3px solid rgba(0, 128, 75, 0.486);
+  border: 3px solid rgba(0, 128, 75, 0.486);
+  margin: auto;
+  
+
   }
 
   ::placeholder {
     color: black;
     font-weight: 50;
-   
   }
+
+
 
 
 button {
