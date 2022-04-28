@@ -222,14 +222,15 @@
 	width: 275px;
   background-color:rgb(165, 212, 194);
   border: 3px solid rgba(0, 128, 75, 0.486);
-  margin: auto;
-  
+  margin: 20px;
+  resize: none;
 
   }
 
   ::placeholder {
     color: black;
     font-weight: 50;
+    padding: 20px;
   }
 
 
