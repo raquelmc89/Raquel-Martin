@@ -7,31 +7,44 @@
   
   }
   
-  .ml-3 {
-    border-radius: 70%;
-    max-width: 200px;
-    height: auto;
-    margin-right: 5em;
-    margin-top: 3em;
-    margin-bottom: 5em;
-    overflow: hidden;
+  img {
+    border-radius: 50%;
     transform: translateY(0px);
-    
+    margin-right: 80px;
+
+
+  
   }
   
   #header {
     text-align: center;
     margin-top:150px;
-    
+   
+  }
+
+  .name, .fed { 
+    font-size: 40px;
+    margin-left: 40px;
+    font-weight: 600;
+  ;
+
   }
   
+
   .bg-image {
     background-image: url('map.jpg'); 
     height:50vh;
     background-repeat:no-repeat; 
     background-position: center;
     background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;   
+    
+    
   }
+  
  
   /* Navbar */
 
@@ -59,7 +72,10 @@
   .Navbar {
     display:none;
   }
- 
+ .waviy row justify-content-md-cente {
+   position: relative;
+   text-align: center;
+  }
    } 
   
   
@@ -108,15 +124,19 @@
   
   
   /* hello animation*/
+
   
    .waviy {
      margin-top: 30px;
-    position: relative;
+    position:relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
-  
+    display: flex;
+    justify-content: center;
+    justify-items: center;
   }
   
   .waviy span {
+   
     position: relative;
     display: inline-block;
     color: black;
@@ -145,6 +165,9 @@
    animation: table 4s;
    margin: auto;
    table-layout: auto;
+   display:flex;
+   justify-content: center;
+   justify-items: center;
    
   }
   
@@ -171,6 +194,7 @@
   /* portfolio */
   
   #portfolio {
+    
     background-color: rgba(0, 128, 75, 0.486);
     margin-top: 50px;
     margin-left: auto;
@@ -181,7 +205,7 @@
     animation-name:portfolio;
     animation-duration: 4s;
    
-    
+   
   }
   
   @keyframes portfolio {
@@ -190,6 +214,38 @@
   
   }
 
+  .responsive {
+    display: flex;
+    width:100%;
+    height:auto;
+    margin-top: 225px;
+    flex-wrap: wrap;
+    
+
+  }
+
+.column {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.row { 
+display:flex;
+justify-content:space-evenly;
+align-items: baseline;
+
+}
+
+figcaption{
+  margin-top: 10px;
+  text-align: left;
+  text-align: center;
+  color: rgba(3, 56, 34, 0.486);
+  font-weight: 600;
+  font-size: 30px;
+  
+}
   /* contact form*/
 
  .col-4 {
@@ -225,7 +281,6 @@
   margin: auto;
   resize: none;
  
-
   }
 
   ::placeholder {
