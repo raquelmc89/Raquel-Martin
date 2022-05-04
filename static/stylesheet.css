@@ -1,81 +1,99 @@
 /* header */
 
-.container-fluid {
-    text-align: center;
-    align-content: center;
-    margin-top: 9em;
-  
-  }
-  
-  img {
-    border-radius: 50%;
-    transform: translateY(0px);
-    margin-right: 80px;
 
-
+#portrait {
+  position: relative;
+  margin-left: auto;
+  display: block;
+  padding-right: 100px;
+  height: 80%;
+  margin-top: 40px;
+ 
   
-  }
-  
-  #header {
+}
+  #name {
+    
     text-align: center;
     margin-top:150px;
+    position: absolute;
+    margin-left: 100px;
    
   }
+ h1 {
+   font-size: 60px;
+ }
+ h3 {
+   font-size: 40px;
+ }
 
-  .name, .fed { 
-    font-size: 40px;
-    margin-left: 40px;
-    font-weight: 600;
-  ;
-
-  }
-  
-
-  .bg-image {
-    background-image: url('map.jpg'); 
+  #map {
     height:50vh;
     background-repeat:no-repeat; 
-    background-position: center;
+    background-position: relative;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+  }
+
+
+
+  .header{
+    height: 50vh;
     background-size: cover;
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;   
-    
+    flex-direction: row;
+    justify-content: left;
+   
     
   }
   
  
   /* Navbar */
 
-.Navbar {
+  .navbar-nav , nav {
+  text-align: center;
   display: flex;
   justify-content: center;
-  padding: 16px;
   background-color: rgba(0, 128, 75, 0.486);
+  padding: 16px;
   font-size:  30px;
   margin:auto;
-  
+ 
 } 
 
-  .Nav-link{
-    display: flex;
-    padding-right: 20px;
-    color: rgba(3, 56, 34, 0.486);
-  
-  }
+
+
+
 @media only screen and (max-width: 768px) {
-  .Navbar, 
-  .Nav-link {
-    flex-direction: column;
-  }
-  .Navbar {
-    display:none;
-  }
- .waviy row justify-content-md-cente {
+  
+
+  #portrait {
+
    position: relative;
-   text-align: center;
+  margin-left: auto;
+  display: block;
+  padding-right: 20px;
+  height: 80%;
+  margin-top: 40px;
+    
   }
+  #name {
+    margin-left: 0px;
+    text-align: left;
+    margin-top: 40px;
+    position: relative;
+    margin-left: 10px;
+  }
+  
+h1{
+  font-size: 50px;
+}
+h3 {
+  font-size: 30px;
+}
+.navbar-nav , nav {
+  color:rgb(165, 212, 194);
+}
    } 
   
   
@@ -89,6 +107,8 @@
     background-color:rgb(165, 212, 194);
     opacity: 100%;
   }
+
+
   /* footer  */
   
   #footer {
@@ -99,56 +119,25 @@
   }
   
   /* about */
-  
-  #about {
-    background-color: rgba(0, 128, 75, 0.486);
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right:auto;
-    padding-top: 30px;
-    padding-left: 20px;
-   padding-right: 20px;
-   padding-bottom: 20px;
-   font-size:medium;
-   position:relative;
-   animation: about 4s;
-  
-  }
-  
-  @keyframes about {
-  
-    0% { opacity: 0; }
-    100% { opacity: 1;}
-  }
-  
-  
-  
-  /* hello animation*/
 
-  
-   .waviy {
-     margin-top: 30px;
-    position:relative;
-    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  .wavy {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+     position: relative;
+     text-align: center;
+    }
+    .wavy span {
+      position: relative;
+      display: inline-block;
+      color: rgba(0, 128, 75, 0.486);
+      font-size: 2em;
+      text-transform: uppercase;
+      animation: wavy 2s ease-in-out infinite;
+      animation-delay: calc(0.1s * var(--i));
   }
-  
-  .waviy span {
-   
-    position: relative;
-    display: inline-block;
-    color: black;
-    text-transform: uppercase;
-    animation: waviy 1s infinite;
-    animation-delay: calc(.1s * var(--i));
-    color: rgba(0, 128, 75, 0.486);
-    padding-top: 20px;
-    font-size:  40px;;
-    
-  }
-  @keyframes waviy {
+  @keyframes wavy {
     0%,40%,100% {
       transform: translateY(0)
     }
@@ -157,18 +146,43 @@
     }
   }
   
+  #about {
+    background-color: rgba(0, 128, 75, 0.486);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 60px;
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-bottom: 60px;
+   font-size:25px;
+   position:relative;
+   animation: about 4s;
+   text-align: justify;
+  
+  }
+ 
+  
+  @keyframes about {
+  
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+  }
+  
   /* table education layout*/
   
   .table-responsive {
     
-   padding:10px;
+   padding:20px;
+   padding-top: 20x;
    animation: table 4s;
    margin: auto;
    table-layout: auto;
    display:flex;
    justify-content: center;
-   justify-items: center;
-   
+   justify-items: center; 
+   align-items: center;
+   flex-direction: center;
   }
   
   @keyframes table {
@@ -178,16 +192,18 @@
   }
   
   th, td {
+
     padding: 30px;
     text-align: center;
   }
   
   th i {
     padding-left: 40px ;
-    padding-right: 20px
+    padding-right: 20px;
+  
   }
   
-  ul{
+  ul {
     list-style: none ;
   }
   
@@ -220,7 +236,7 @@
     height:auto;
     margin-top: 225px;
     flex-wrap: wrap;
-    
+
 
   }
 
