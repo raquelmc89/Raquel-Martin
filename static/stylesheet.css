@@ -11,7 +11,7 @@
  
   
 }
-  #name {
+  #fullname {
     
     text-align: center;
     margin-top:150px;
@@ -19,9 +19,11 @@
     margin-left: 100px;
    
   }
+
  h1 {
    font-size: 60px;
  }
+
  h3 {
    font-size: 40px;
  }
@@ -100,6 +102,24 @@
   color:rgb(165, 212, 194);
   }
  
+/*#contact-parent{
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  /*display: block;
+  flex-direction: column;
+  justify-content: left;
+  justify-items: left;
+  align-content:flex-start;
+}
+#contactme {
+ float:left;
+}
+form{
+  float:left;
+}*/
+
 }
   
 
@@ -144,6 +164,7 @@
     20% {
       transform: translateY(-20px)
     }
+  
   }
 
     
@@ -285,19 +306,35 @@ figcaption{
 */
   /* contact form*/
 
- .col-4 {
-  background: rgba(0, 128, 75, 0.486);
-  height: 450px;
+ form{
+  height:fit-content;
   border:  10px rgb(202, 186, 93);
   border-radius: 10px;
-  margin: 60px;
+  margin: 30px;
   border-style: outset;
-  text-align: center;
-  padding: 30px;
   text-align:center;
   animation:contact 4s;
+  width:fit-content;
+  padding: 30px;
 
   }
+
+#contactme {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  height:fit-content;
+  border:  10px rgb(202, 186, 93);
+  border-radius: 10px;
+  padding:30px;
+  margin: 30px;
+  border-style: outset;
+  text-align:center;
+  animation:contact 4s;
+  width:fit-content;
+
+  
+}
 
   @keyframes contact{
   
@@ -305,25 +342,25 @@ figcaption{
     100% { opacity: 1;}
   }
 
-  input{
+.form-control {
   display: block;
   max-width: 95%;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
 	outline:0;
 	height:40px;
-	width: 275px;
+	width: fit-content;
   background-color:rgb(165, 212, 194);
   border: 3px solid rgba(0, 128, 75, 0.486);
-  margin: auto;
   resize: none;
  
   }
 
-  ::placeholder {
+  ::form-control{
     color: black;
     font-weight: 50;
     padding: 20px;
+    background-color:rgb(165, 212, 194) ;
   }
 
 

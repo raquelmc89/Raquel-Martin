@@ -21,16 +21,15 @@
 
     <div class= "header">
       <img src="./static/map.jpg" alt="map" id="map"> 
-       <div id="name" >
+       <div id="fullname" >
           <h1>Raquel Martin Calderon</h1>
           <h3>Front End Developer</h3>  
        </div>
        <img src="./static/portrait2.jpeg"  alt="my portrait" id="portrait">
     </div>
-   
-      
-    
+
     <!--nav-->
+
     <nav class="navbar navbar-expand-lg  navbar-light ">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -54,34 +53,43 @@
     </div>
   </nav>
   
-
-
   <!--contact form goes here-->
-<div class="row justify-content-center">
-  <div class="col-4">
-    <p>For information and enquires</p>
-    <form
-       action="https://formsfree.io/f/{form_id}"
-       method="POST">
-    <label for="name">Name</label>
-     <input name="name" id="name" type="name" rows="4" cols="50"></input>
-    <label for="email">Email</label>
-     <input id="email" name="email" type="email"rows="2" cols="50"></input>
-    <label for="subject">Subject</label>
-    <input id="subject" name="subject" type="subject" rows="2" cols="50"></input><br><br>
-    <button type="submit"> Submit </button>
-    </form>
-  </div>
-  <div class="col-4">
-   <br><br>
-   <h5>Adress</h5>
-   <p>Rocheter ME2</p>
-   <h5>Phone number</h5>
-   <p>07821544458</p>
-   <h5>Email</h5>
-   <p>Raquelmc89@gmail.com</p>
-  </div>
+<div id="contact-parent" class="row justify-content-center">
+  <div class="col-6">
+     <form>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputname">Full name</label>
+          <input type="text" class="form-control" id="inputname" placeholder="Full name">
+        </div><br>
+        <div class="form-group col-md-12">
+          <label for="inputemail">Email</label>
+          <input type="email" class="form-control" id="inputemail" placeholder="Email">
+        </div><br>
+      </div>
+      <div class="form-group col-md-12">
+        <label for="inputNumber">Telephone number</label>
+        <input type="text" class="form-control" id="inputNumber" placeholder="+44">
+      </div><br>
+      <div class="form-group col-md-12">
+        <label for="inputSubjet">Subject</label>
+        <input type="subject" class="form-control" id="inputSubject" placeholder="You message here">
+      </div><br><br>
+      <button type="submit">Submit</button>
+     </form>
+  
 </div>
+     <div class="col-4">
+      <div id="contactme">
+        <h5>Adress</h5>
+         <p>Rocheter ME2</p>
+        <h5>Phone number</h5>
+         <p>07821544458</p>
+        <h5>Email</h5>
+        <p>Raquelmc89@gmail.com</p>
+      </div>
+   </div>
+  </div>
 </body>
 
 
