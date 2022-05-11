@@ -63,20 +63,25 @@
  
 } 
 
+/*---------------phone responsive---------------*/
 
-@media only screen and (max-width: 768px) {
+
+@media only screen 
+and (max-width: 768px)
+and (min-device-width:576px) 
+and (orientation: portrait) {
   
 /* responsive banner*/
 
   #portrait {
 
-   position: relative;
+  position: relative;
   margin-left: auto;
   display: block;
-  padding-right: 10%;
-  padding-left: 10%;
-  height: 80%;
-  margin-top: 40px;
+  padding-right: 20%;
+  padding-left: 30%;
+  height: 45%;
+  margin-top: 100px;
     
   } 
   
@@ -96,6 +101,7 @@
   font-size: 30px;
  }
 
+
  /* responsive navbar*/
 
 
@@ -103,23 +109,34 @@
   color:rgb(165, 212, 194);
   }
  
-/*#contact-parent{
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  width: auto;
-  /*display: block;
-  flex-direction: column;
-  justify-content: left;
-  justify-items: left;
-  align-content:flex-start;
+#contact-parent{
+  /*margin-left: 10%;
+  margin-right: 10%;
+  height: auto;*/
+  display: flex;
+  flex-wrap: wrap;
+  flex:50%;
 }
+
+form {
+
+flex-direction: column;
+flex:50%;
+
+}
+
 #contactme {
- float:left;
+  margin-left: 125px;
 }
-form{
-  float:left;
-}*/
+
+.column-nature {
+  flex: 50%;
+
+
+}
+.row {
+  flex-direction: column;
+}
 
 }
   
@@ -233,30 +250,26 @@ form{
   
   /* portfolio */
   
-  .row {
+  .row { 
     background-color: rgba(0, 128, 75, 0.486);
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right:auto;
     height:fit-content;
-    width:1000px;
+    width:auto;
     position:relative;
     animation: about 4s;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 
   }
   
   .column_nature{
-    float:right;
-    width: 40%;
-    margin-left: 10px;
-    display:flex;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    justify-content: space-around;
-    animation: about 4s;
+    flex: 50%;
+    padding:20px;
+    
 
   
   }
@@ -270,70 +283,41 @@ form{
   }
 
   
-
-/*
-  .responsive {
-    display: flex;
-    width:100%;
-    height:auto;
-    margin-top: 225px;
-    flex-wrap: wrap;
-
-
-  }
-
-.column {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-.row { 
-display:flex;
-justify-content:space-evenly;
-align-items: baseline;
-
-}
-
-figcaption{
-  margin-top: 10px;
-  text-align: left;
-  text-align: center;
-  color: rgba(3, 56, 34, 0.486);
-  font-weight: 600;
-  font-size: 30px;
-  
-}
-*/
   /* contact form*/
 
- form{
-  height:fit-content;
+
+ form {
+  
   border:  10px rgb(202, 186, 93);
   border-radius: 10px;
   margin: 30px;
   border-style: outset;
   text-align:center;
   animation:contact 4s;
-  width:fit-content;
+  width: fit-content;
   padding: 30px;
-
+  flex-direction: row;
+  margin-left: 40%;
+  padding-right: 30px;
+    
   }
 
+  
+
 #contactme {
-  position: absolute;
-  top: 45%;
-  transform: translateY(-50%);
-  height:fit-content;
+  float:right;
+  flex-direction: row;
+  width: fit-content;
+  margin-right: 25%;
+  height: fit-content;
+  padding: 30px;
+  margin-top: 130px;
   border:  10px rgb(202, 186, 93);
   border-radius: 10px;
-  padding:30px;
-  margin: 30px;
   border-style: outset;
   text-align:center;
   animation:contact 4s;
-  width:fit-content;
-
+ 
   
 }
 
