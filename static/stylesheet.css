@@ -3,20 +3,23 @@
 
 #portrait {
   position: relative;
-  margin-left: auto;
-  display: block;
-  padding-right: 100px;
-  height: 80%;
-  margin-top: 40px;
- 
+  display: flex;
+  height: 70%;
+  margin-top: 70px;
+  border: 5px solid rgba(0, 128, 75, 0.486);
+  float:right;
+  box-align:right;
+  margin-left: 120px;
+  border-radius: 10%;
   
-}
+  
+} 
   #fullname {
-    
     text-align: center;
     margin-top:150px;
     position: absolute;
     margin-left: 100px;
+    margin-left: 70px;
    
   }
 
@@ -44,7 +47,9 @@
     background-size: cover;
     display:flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+    background-color: none;
+
    
     
   }
@@ -73,17 +78,15 @@ and (orientation: portrait) {
   
 /* responsive banner*/
 
-  #portrait {
-
+ /* #portrait {
   position: relative;
   margin-left: auto;
   display: block;
-  padding-right: 20%;
   padding-left: 30%;
   height: 45%;
   margin-top: 100px;
     
-  } 
+  } */
   
   #fullname {
     margin-left: 0px;
