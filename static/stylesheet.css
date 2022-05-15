@@ -78,22 +78,22 @@ and (orientation: portrait) {
   
 /* responsive banner*/
 
- /* #portrait {
-  position: relative;
-  margin-left: auto;
-  display: block;
+ #portrait {
   padding-left: 30%;
   height: 45%;
   margin-top: 100px;
+  border:none;
     
-  } */
+  } 
   
   #fullname {
     margin-left: 0px;
     text-align: left;
     margin-top: 40px;
-    position: relative;
-    margin-left: 10px;
+    position: absolute;
+    margin-left: 20px;
+    height: fit-content
+    ;
   }
   
   h1{
