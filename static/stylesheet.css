@@ -65,9 +65,8 @@
 
 
 @media only screen 
-and (max-width: 576px)
-and (min-device-width:576px) 
-and (orientation: portrait) {
+and (max-width: 768px)
+ {
   
 /* responsive banner*/
 
@@ -78,21 +77,18 @@ and (orientation: portrait) {
 }
 
   #portrait {
-  padding-left: 30%;
+  /*padding-left: 30%;
   margin-left: 150px;
   height: 45%;
   margin-top: 100px;
-  border:none;
+  border:none;*/
+
   
   } 
   
   #fullname {
     margin-left: 60px;
-    /*text-align: left;
-    margin-top: 40px;
-    position: absolute;
-    margin-left: 20px;
-    height: fit-content;*/
+   
   }
   
   h1{
@@ -111,24 +107,12 @@ and (orientation: portrait) {
   color:rgb(165, 212, 194);
   }
  
-#contact-parent{
-  /*margin-left: 10%;
-  margin-right: 10%;
-  height: auto;*/
-  display: flex;
-  flex-wrap: wrap;
-  flex:50%;
-}
 
 form {
 
 flex-direction: column;
 flex:50%;
 
-}
-
-#contactme {
-  margin-left: 125px;
 }
 
 .column-nature {
@@ -138,6 +122,7 @@ flex:50%;
 }
 .row {
   flex-direction: column;
+ 
 }
 
 }
@@ -271,6 +256,7 @@ flex:50%;
   .column_nature{
     flex: 50%;
     padding:20px;
+    margin-left: 50px;
     
 
   
@@ -287,39 +273,31 @@ flex:50%;
   
   /* contact form*/
 
-
+/*
  form {
   
-  border:  10px rgb(202, 186, 93);
-  border-radius: 10px;
-  margin: 30px;
-  border-style: outset;
-  text-align:center;
-  animation:contact 4s;
+  
   width: fit-content;
-  padding: 30px;
-  flex-direction: row;
-  margin-left: 40%;
-  padding-right: 30px;
+  
     
-  }
+  }*/
 
   
 
 #contactme {
-  float:right;
-  flex-direction: row;
-  width: fit-content;
-  margin-right: 25%;
+
+  margin-left: 50px;
+  margin-top: 200px;
+  background-color: rgb(165, 212, 194);
+  border: 2px solid rgb(202, 186, 93);
+  border-radius: 30px;
+  border-style: double ;
+  box-shadow:rgb(202, 186, 93) 4px 4px 0 0 ;
+  text-align: center;
+  margin-bottom: 30px;
+  width:500px;
   height: fit-content;
-  padding: 30px;
-  margin-top: 130px;
-  border:  10px rgb(202, 186, 93);
-  border-radius: 10px;
-  border-style: outset;
-  text-align:center;
-  animation:contact 4s;
- 
+  margin-right: 100px;
   
 }
 
@@ -329,7 +307,7 @@ flex:50%;
     100% { opacity: 1;}
   }
 
-.form-control {
+/*.column-nature {
   display: block;
   max-width: 95%;
   border-bottom-left-radius: 30px;
@@ -341,13 +319,23 @@ flex:50%;
   border: 3px solid rgba(0, 128, 75, 0.486);
   resize: none;
  
-  }
+  }*/
 
-  ::form-control{
-    color: black;
-    font-weight: 50;
+  .form-group{
     padding: 20px;
+   
+  }
+ label {
+   padding-bottom: 20px;
+
+  }
+  
+  .form-control{
+    color: black;
+    padding: 20px;
+    font-weight: 50px;
     background-color:rgb(165, 212, 194) ;
+    width:fit-content;
   }
 
 
@@ -364,8 +352,8 @@ button {
   display: inline-block;
   padding: 0 18px;
   line-height: 50px;
-  text-align: center;
   touch-action: manipulation;
+  margin-left: 90px ;
 }
 
 button:hover {
