@@ -1,4 +1,4 @@
-/* header */
+/*--------- header---------- */
 
 
 #portrait {
@@ -48,7 +48,7 @@
   }
   
  
-  /* Navbar */
+  /* ----------Navbar---------- */
 
   .navbar-nav , nav {
   text-align: center;
@@ -77,11 +77,11 @@ and (max-width: 768px)
 }
 
   #portrait {
-  /*padding-left: 30%;
+  padding-left: 30%;
   margin-left: 150px;
   height: 45%;
   margin-top: 100px;
-  border:none;*/
+  border:none;
 
   
   } 
@@ -338,6 +338,10 @@ flex:50%;
     width:fit-content;
   }
 
+  h4 {
+    padding: 20px;
+  }
+
 
 
 
@@ -350,7 +354,7 @@ button {
   color: black ;
   cursor: pointer;
   display: inline-block;
-  padding: 0 18px;
+  padding: 0 20px;
   line-height: 50px;
   touch-action: manipulation;
   margin-left: 90px ;
