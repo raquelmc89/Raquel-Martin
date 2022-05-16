@@ -22,7 +22,7 @@ Email: raquelmc89@gmail.com
 ## Acknowledgments
 
 
-* [Awesome-readme] (https://github.com/matiassingers/awesome-readme)
-* [A simple README.md] (https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [Readme example] (https://github.com/sw1ckham/southwick-s-project/edit/master/README.md)
-* [Markdown guide] (https://er-bharat1992.medium.com/writing-readme-md-markdown-file-file-bd711d1afbfa)
+* [Awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [A simple README.md](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+* [Readme example](https://github.com/sw1ckham/southwick-s-project/edit/master/README.md)
+* [Markdown guide](https://er-bharat1992.medium.com/writing-readme-md-markdown-file-file-bd711d1afbfa)
