@@ -106,6 +106,13 @@ and (max-width: 768px)
  .navbar-nav , nav {
   color:rgb(165, 212, 194);
   }
+
+  .navbar-toggler {
+    width:50%;
+  float: none;
+  margin: 0 auto;
+  }
+  
  
 
 form {
