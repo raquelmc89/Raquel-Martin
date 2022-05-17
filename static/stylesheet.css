@@ -122,15 +122,16 @@ flex:50%;
 
 }
 
+
 .column-nature {
   flex: 50%;
 
-
 }
-.row {
+
+/*.row {
   flex-direction: column;
  
-}
+}*/
 
 }
   
@@ -314,19 +315,7 @@ flex:50%;
     100% { opacity: 1;}
   }
 
-/*.column-nature {
-  display: block;
-  max-width: 95%;
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-	outline:0;
-	height:40px;
-	width: fit-content;
-  background-color:rgb(165, 212, 194);
-  border: 3px solid rgba(0, 128, 75, 0.486);
-  resize: none;
- 
-  }*/
+
 
   .form-group{
     padding: 20px;
