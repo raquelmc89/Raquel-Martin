@@ -1,6 +1,30 @@
-/*--------- header---------- */
 
 
+ h2{
+   margin-top: 10%;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+ .subheading{
+   font-size: 40px;
+  
+}
+
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+    margin: 10%;
+}
+.bg-image {
+    background-image: url(map.jpg);
+    height: fit-content;
+   
+}
+/*
 #portrait {
   position: relative;
   height: 70%;
@@ -10,11 +34,13 @@
   box-align:right;
   margin-left: 500px;
   border-radius: 10%;
+ 
   
 } 
   #fullname {
     margin-top:100px;
     position: absolute;
+    margin-left: 70px;
    
   }
 
@@ -42,10 +68,10 @@
     background-size: cover;
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: none;
     
-  }
+  }*/
   
  
   /* ----------Navbar---------- */
@@ -53,13 +79,20 @@
   .navbar-nav , nav {
   text-align: center;
   display: flex;
-  justify-content: center;
   background-color: rgba(0, 128, 75, 0.486);
   padding: 16px;
   font-size:  30px;
   margin:auto;
  
 } 
+
+nav {
+  background-color:rgb(165, 212, 194) ;
+  margin-top: 30px;
+  
+}
+
+
 /*----------body----------*/
 
   body {
@@ -80,12 +113,13 @@
   /*----------about----------*/
 
   .wavy {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
      position: relative;
      text-align: center;
+    font-size: 25px;
     }
 
     .wavy span {
@@ -110,15 +144,11 @@
     
   
   #about {
-    background-color: rgba(0, 128, 75, 0.486);
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right:auto;
-    padding-top: 60px;
-   padding-left: 60px;
-   padding-right: 60px;
-   padding-bottom: 60px;
-   font-size:25px;
+   background-color: rgba(0, 128, 75, 0.486);
+   padding:20px;
+   margin:auto;
+   margin-top: 50px;
+   font-size:20px;
    position:relative;
    animation: about 4s;
    text-align: justify;
@@ -136,8 +166,7 @@
   
   .table-responsive {
     
-   padding:20px;
-   padding-top: 20x;
+  padding:20px;
    animation: table 4s;
    margin: auto;
    table-layout: auto;
@@ -158,6 +187,7 @@
 
     padding: 30px;
     text-align: center;
+  
   }
   
   th i {
@@ -172,7 +202,7 @@
   
   /*----------portfolio----------*/
   
-  .row{ 
+  #row-port{ 
     background-color: rgba(0, 128, 75, 0.486);
     margin-top: 100px;
     margin-left: auto;
@@ -333,9 +363,9 @@ and (max-width: 768px)
   } 
   
 #fullname {
-    margin-left: 60px;
-    margin-top: 60px;
-   
+  margin-left: 60px;
+  margin-top: 60px;
+  position: absolute;
   }
   
  h1{
@@ -355,7 +385,7 @@ and (max-width: 768px)
   }
 
   .navbar-toggler {
-    width:50%;
+  width:50%;
   float: none;
   margin: auto;
   }
@@ -378,10 +408,19 @@ and (orientation: landscape) {
 
   #fullname {
     margin-top: 30px;
+    position: relative;
   }
+
   #portrait{
     margin-top: 80px;
   }
+
+  .navbar-toggler {
+    width:50%;
+    float: none;
+    
+    }
+    
   
 }
   
