@@ -1,68 +1,35 @@
 
 
  h2{
-   margin-top: 10%;
-    font-weight: bold;
-    font-size: 60px;
+ margin-top: 10%;
+   font-weight: bold;
+   font-size: 40px;
     
 }
  .subheading{
-   font-size: 40px;
+   font-size: 30px;
   
 }
 
 .how-img 
 {
     text-align: center;
+    
 }
 .how-img img{
-    width: 40%;
+    width: 30%;
     margin: 10%;
 }
 .bg-image {
     background-image: url(map.jpg);
     height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position:relative ;
+    
    
 }
-/*
-#portrait {
-  position: relative;
-  height: 70%;
-  margin-top: 70px;
-  border: 5px solid rgba(0, 128, 75, 0.486);
-  float:right;
-  box-align:right;
-  margin-left: 500px;
-  border-radius: 10%;
- 
   
-} 
-  #fullname {
-    margin-top:100px;
-    position: absolute;
-    margin-left: 70px;
-   
-  }
-
- h1 {
-   font-size: 60px;
- }
-
- h3 {
-   font-size: 40px;
- }
-
-  #map {
-    height:50vh;
-    background-repeat:no-repeat; 
-    background-position: relative;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-  }
-
-
-
   .header{
     height: 50vh;
     background-size: cover;
@@ -71,7 +38,7 @@
     justify-content: space-around;
     background-color: none;
     
-  }*/
+  }
   
  
   /* ----------Navbar---------- */
@@ -175,6 +142,7 @@ nav {
    justify-items: center; 
    align-items: center;
    flex-direction: center;
+   margin-top: 100px;
   }
   
   @keyframes table {
@@ -231,16 +199,11 @@ nav {
   
   /*----------contact form----------*/
 
-  .parent{ 
-    position:relative;
+  .container{ 
     animation: about 4s;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
   }
 
-  #contactme1 {
+  form {
 
     background-color: rgba(0, 128, 75, 0.486);
     border: 2px solid rgb(202, 186, 93);
@@ -256,10 +219,10 @@ nav {
 
   }
 
-#contactme {
+#continf {
 
   margin-left: 50px;
-  margin-top: 200px;
+  margin-top: 350px;
   background-color: rgba(0, 128, 75, 0.486);
   border: 2px solid rgb(202, 186, 93);
   border-radius: 30px;
@@ -317,7 +280,8 @@ button {
   line-height: 50px;
   touch-action: manipulation;
   margin-bottom: 20px;
- margin-left: 120px;
+  margin-left: 20px;
+ 
 }
 
 button:hover {
@@ -391,6 +355,12 @@ and (max-width: 768px)
   }
   
 /*responsive portfolio*/
+
+h2, h4{
+  margin-top: auto;
+  margin-left: 20%;
+}
+
 
 .column-nature {
   flex: 50%;
