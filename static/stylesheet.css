@@ -111,7 +111,7 @@ nav {
     
   /*----------about----------*/
 
-  
+
   #about {
    padding:20px;
    margin:auto;
@@ -242,7 +242,7 @@ nav {
   }
 
   #h4 {
-    color: #7a89b3;
+    color:#7a89b3; 
     font-size: 30px;
   }
 
@@ -315,11 +315,11 @@ nav {
 
   #h4 {
   margin-top: 20px;
+  margin-left: 15px;
   }
 
 button {
   background-color: rgb(165, 212, 194);
-  border: 2px solid #7a89b3;
   border-radius: 30px;
   border-style: double ;
   color: black ;
@@ -334,14 +334,12 @@ button {
 }
 
 button:hover {
-  background-color:#7a89b3;
+
   box-shadow:rgb(165, 212, 194) 4px 4px 0 0 ;
+  background-color: #7a89b3;
 }
 
-button:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
+
 
 @media (min-width: 768px) {
   button {
@@ -378,30 +376,10 @@ and (max-width: 768px)
  
 }
 
-#portrait {
-  padding-left: 30%;
-  margin-left: 150px;
-  height: 45%;
-  margin-top: 100px;
-  border:none;
-
-  
-  } 
-  
-#fullname {
-  margin-left: 60px;
-  margin-top: 60px;
-  position: absolute;
-  }
-  
- h1{
-  font-size: 50px;
-  }
-
-  h3 {
+h2 {
+  padding-right: 30px;
   font-size: 30px;
- }
-
+}
 
  /* responsive navbar*/
 
