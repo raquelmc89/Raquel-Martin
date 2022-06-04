@@ -1,10 +1,21 @@
 
 
  h2{
- margin-top: 10%;
+   margin-top: 20%;
    font-weight: bold;
-   font-size: 40px;
-    
+   font-size: 45px;
+   color:white;
+  
+}
+
+.subheading{
+  color:#7a89b3;
+}
+  
+h4{
+  padding: 10px;
+  color:white;
+  
 }
  .subheading{
    font-size: 30px;
@@ -21,7 +32,7 @@
     margin: 10%;
 }
 .bg-image {
-    background-image: url(map.jpg);
+    /*background-image: url(grass.jpg);*/
     height: fit-content;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -39,6 +50,9 @@
     background-color: none;
     
   }
+  body {
+    background-image: url(grass.jpg) ;
+  }
   
  
   /* ----------Navbar---------- */
@@ -46,39 +60,24 @@
   .navbar-nav , nav {
   text-align: center;
   display: flex;
-  background-color: rgba(0, 128, 75, 0.486);
   padding: 16px;
   font-size:  30px;
   margin:auto;
- 
+  background-color: #7a89b3;
+
 } 
 
+.nav-link{
+  color:white;
+}
+
 nav {
-  background-color:rgb(165, 212, 194) ;
+
   margin-top: 30px;
   
 }
 
-
-/*----------body----------*/
-
-  body {
-    background-color:rgb(165, 212, 194);
-    opacity: 100%;
-  }
-
-
-  /*----------footer----------*/
-  
-  #footer {
-    margin-top: 150px;
-    text-align: center;
-    color:rgb(12, 11, 5) ;
-  
-  }
-  
-  /*----------about----------*/
-
+ 
   .wavy {
     margin-top: 50px;
     display: flex;
@@ -87,12 +86,13 @@ nav {
      position: relative;
      text-align: center;
     font-size: 25px;
+    color: white;
     }
 
     .wavy span {
       position: relative;
       display: inline-block;
-      color: rgba(0, 128, 75, 0.486);
+      color:#7a89b3;
       font-size: 2em;
       text-transform: uppercase;
       animation: wavy 2s ease-in-out infinite;
@@ -109,9 +109,10 @@ nav {
   }
 
     
+  /*----------about----------*/
+
   
   #about {
-   background-color: rgba(0, 128, 75, 0.486);
    padding:20px;
    margin:auto;
    margin-top: 50px;
@@ -119,6 +120,7 @@ nav {
    position:relative;
    animation: about 4s;
    text-align: justify;
+   color: white;
   
   }
  
@@ -171,7 +173,7 @@ nav {
   /*----------portfolio----------*/
   
   #row-port{ 
-    background-color: rgba(0, 128, 75, 0.486);
+    
     margin-top: 100px;
     margin-left: auto;
     margin-right:auto;
@@ -196,14 +198,60 @@ nav {
     text-align: center;
   }
 
+  p {
+    color:white;
+
+  }
+
   
   /*----------contact form----------*/
 
   .container{ 
     animation: about 4s;
+    width: fit-content;
   }
 
-  form {
+  #contact {
+    background-color: rgba(0, 128, 75, 0.486);
+    /*border: 2px solid rgb(202, 186, 93);
+    border-radius: 30px;
+    border-style: double;
+    box-shadow: rgb(202, 186, 93);*/
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    height:fit-content;
+    width:auto;
+    padding-left: 20px;
+    color: white;
+
+  }
+  h3 {
+    color:#7a89b3;
+    margin-top: 35px;
+    font-size: 30px;
+    padding-bottom: 30px;
+   
+    
+  }
+  h5  {
+    color:#7a89b3;
+    
+    
+
+  }
+
+  #h4 {
+    color: #7a89b3;
+    font-size: 30px;
+  }
+
+  label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /*form {
 
     background-color: rgba(0, 128, 75, 0.486);
     border: 2px solid rgb(202, 186, 93);
@@ -221,9 +269,9 @@ nav {
 
 #continf {
 
-  margin-left: 50px;
-  margin-top: 350px;
-  background-color: rgba(0, 128, 75, 0.486);
+  margin-top: 100px;
+  margin-left: 10px;
+  /*background-color: rgba(0, 128, 75, 0.486);
   border: 2px solid rgb(202, 186, 93);
   border-radius: 30px;
   border-style: double ;
@@ -234,6 +282,10 @@ nav {
   height: fit-content;
   margin-right: 100px;
   
+}*/
+
+#continf{
+  padding-left: 60px;
 }
 
   @keyframes contact{
@@ -242,9 +294,7 @@ nav {
     100% { opacity: 1;}
   }
 
-  h2{
-    padding: 20px;
-  }
+ 
 
   .form-group{
     padding: 20px;
@@ -263,16 +313,15 @@ nav {
     width:fit-content;
   }
 
-  h4 {
-    padding: 20px;
+  #h4 {
+  margin-top: 20px;
   }
 
 button {
   background-color: rgb(165, 212, 194);
-  border: 2px solid rgb(202, 186, 93);
+  border: 2px solid #7a89b3;
   border-radius: 30px;
   border-style: double ;
-  box-shadow:rgb(202, 186, 93) 4px 4px 0 0 ;
   color: black ;
   cursor: pointer;
   display: inline-block;
@@ -285,7 +334,7 @@ button {
 }
 
 button:hover {
-  background-color:rgb(202, 186, 93);
+  background-color:#7a89b3;
   box-shadow:rgb(165, 212, 194) 4px 4px 0 0 ;
 }
 
@@ -300,6 +349,19 @@ button:active {
     padding: 0 25px;
   }
 }
+
+ /*----------footer----------*/
+  
+ #footer {
+  margin-top: 150px;
+  text-align: center;
+  color: white ;
+
+}
+
+
+
+
 
 
 /*---------------phone responsive---------------*/
@@ -389,6 +451,12 @@ and (orientation: landscape) {
     width:50%;
     float: none;
     
+    }
+  
+    #continf {
+
+      margin-left:10px;
+      margin-top: auto;
     }
     
   
