@@ -36,7 +36,7 @@ h4{
     height: fit-content;
     background-repeat: no-repeat;
     background-size: cover ;
-    background-position:relative ;
+ 
     
    
 }
@@ -53,6 +53,7 @@ h4{
   body {
     background-image: url(grass.jpg) ;
   }
+
   
  
   /* ----------Navbar---------- */
@@ -78,38 +79,17 @@ nav {
 }
 
  
-  .wavy {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     position: relative;
-     text-align: center;
-    font-size: 25px;
-    color: white;
-    }
-
-    .wavy span {
-      position: relative;
-      display: inline-block;
-      color:#7a89b3;
-      font-size: 2em;
-      text-transform: uppercase;
-      animation: wavy 2s ease-in-out infinite;
-      animation-delay: calc(0.1s * var(--i));
-  }
-  @keyframes wavy {
-    0%,40%,100% {
-      transform: translateY(0)
-    }
-    20% {
-      transform: translateY(-20px)
-    }
-  
-  }
-
     
   /*----------about----------*/
+
+  #hello {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    color: #7a89b3;
+  }
+  
 
 
   #about {
@@ -143,7 +123,6 @@ nav {
    justify-content: center;
    justify-items: center; 
    align-items: center;
-   flex-direction: center;
    margin-top: 100px;
   }
   
@@ -308,7 +287,7 @@ nav {
   .form-control{
     color: black;
     padding: 20px;
-    font-weight: 50px;
+    font-weight: 50;
     background-color:rgb(165, 212, 194) ;
     width:fit-content;
   }
