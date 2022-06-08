@@ -32,7 +32,7 @@ h4{
     margin: 10%;
 }
 .bg-image {
-    /*background-image: url(grass.jpg);*/
+  
     height: fit-content;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -192,10 +192,6 @@ nav {
 
   #contact {
     background-color: rgba(0, 128, 75, 0.486);
-    /*border: 2px solid rgb(202, 186, 93);
-    border-radius: 30px;
-    border-style: double;
-    box-shadow: rgb(202, 186, 93);*/
     margin-top: 100px;
     margin-left: auto;
     margin-right:auto;
@@ -205,6 +201,8 @@ nav {
     color: white;
 
   }
+
+
   h3 {
     color:#7a89b3;
     margin-top: 35px;
@@ -229,39 +227,6 @@ nav {
     font-weight: bold;
     font-size: 20px;
   }
-
-  /*form {
-
-    background-color: rgba(0, 128, 75, 0.486);
-    border: 2px solid rgb(202, 186, 93);
-    border-radius: 30px;
-    border-style: double;
-    box-shadow: rgb(202, 186, 93);
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right:auto;
-    height:fit-content;
-    width:auto;
-    padding-left: 20px;
-
-  }
-
-#continf {
-
-  margin-top: 100px;
-  margin-left: 10px;
-  /*background-color: rgba(0, 128, 75, 0.486);
-  border: 2px solid rgb(202, 186, 93);
-  border-radius: 30px;
-  border-style: double ;
-  box-shadow:rgb(202, 186, 93) 4px 4px 0 0 ;
-  text-align: center;
-  margin-bottom: 30px;
-  width:500px;
-  height: fit-content;
-  margin-right: 100px;
-  
-}*/
 
 #continf{
   padding-left: 60px;
@@ -332,7 +297,6 @@ button:hover {
  #footer {
   margin-top: 150px;
   text-align: center;
-  color: white ;
 
 }
 
